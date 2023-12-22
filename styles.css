@@ -1,0 +1,32 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: darkgray;
+}
+
+main {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  main {
+    width: calc(100vw - 40px);
+    border-radius: 0;
+    margin: 0;
+    padding: 20px;
+  }
+}
